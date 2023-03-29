@@ -36,10 +36,12 @@
 
 
 7. Open image file 
-    * open image by dragging and dropping onto the indicated area on the landing page.
+
+- **Method 1**:
+    Open image by dragging and dropping onto the indicated area on the landing page.
     ![Photoshop landing](./images-installation/Ps_landing_page.jpg)
-    * _Or_ by menu navigation:
-        1. Click File -> Open
-        2. Click the **On your computer** button on the lower left of the popup window.
-        ![CC photoshop open](./images-installation/OpenfromCCwindow.jpg)
-        3. Select your desired image file in the file explorer and click open.
+- **Method 2**: by menu navigation:
+    1. Click File -> Open
+    2. Click the **On your computer** button on the lower left of the popup window.
+    ![CC photoshop open](./images-installation/OpenfromCCwindow.jpg)
+    3. Select your desired image file in the file explorer and click open.
