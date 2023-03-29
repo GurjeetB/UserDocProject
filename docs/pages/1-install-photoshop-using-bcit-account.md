@@ -1,47 +1,43 @@
 # Installing Photoshop via BCIT
 
-1. Log into bcit software portal.
-    * Visit the website by [clicking this link](https://bcit.onthehub.com/WebStore/Welcome.aspx)
-        * or search google for "bcit software portal hub" and select the first result.
-    * click the **Sign In** on the top-right corner of the site
+## Log into bcit software portal.
+
+1. Visit the website by [clicking this link](https://bcit.onthehub.com/WebStore/Welcome.aspx)
+    - or search google for "bcit software portal hub" and select the first result.
+2. click the **Sign In** on the top-right corner of the site
     ![software portal](./images-installation/install_1.jpg)
-    * Log in with your BCIT credentials (BCIT email and password). You will be returned to the previous page while signed in.
-    * Search for the term 'adobe'. There should be only 1 result (_Adobe Creative Cloud Pro_). Click **Add to Cart** to the right of the page.
+3. Log in with your BCIT credentials (BCIT email and password). You will be returned to the previous page while signed in.
+4. Search for the term 'adobe'. There should be only 1 result (_Adobe Creative Cloud Pro_). Click **Add to Cart** to the right of the page.
     ![software portal](./images-installation/install_2.jpg)
 
-2. activate adobe license in bcit software portal
-    * !need screenshots!!
+## Activate adobe license in bcit software portal
+* !need screenshots!!
     
+## Download Adobe Creative Cloud
 
-3. Download Adobe Creative Cloud
-    * Click install. You will be lead to the download creative cloud webpage.
-    ![portalACC install](./images-installation/install_3_1.jpg)
-    * Click **Download Creative Cloud**
+1. Click install. You will be lead to the download creative cloud webpage. ![portalACC install](./images-installation/install_3_1.jpg)
+2. Click **Download Creative Cloud**
     ![software portal](./images-installation/DownloadCC.jpg)
-    * Launch the downloaded Creative_Cloud_Set-Up.exe
-    * Whenever prompted to sign in for authentication, use your BCIT email.
+3. Launch the downloaded Creative_Cloud_Set-Up.exe
+4. Enter your BCIT email whenever prompted to sign in for authentication.
     ![CC adobe login](./images-installation/CC_BCIT_login.jpg)
 
+## Download Photoshop in the Creative Cloud.
 
+- Once logged in, you should be on the _All Apps_ page for desktop by default
 
-4. Download Photoshop in the Creative Cloud.
-    * Once logged in, you should be on the _All Apps_ page for desktop by default
-5. Click the install button for Photoshop.
-    ![CC photoshop install](./images-installation/CC_landingpage.jpg)
+1. Click the install button for Photoshop.
+    ![CC Photoshop install](./images-installation/CC_landingpage.jpg)
 
+2. Click the open photoshop button on the updated Creative Cloud window after installation.
+    ![CC Photoshop open](./images-installation/CC_open_Ps_button.jpg)
 
-6. Click the open photoshop button on the updated Creative Cloud window after installation.
-    ![CC photoshop open](./images-installation/CC_open_Ps_button.jpg)
-
-
-
-7. Open image file 
+## Open image file in Photoshop
 
 - **Method 1**:
-    Open image by dragging and dropping onto the indicated area on the landing page.
+    Open image file by dragging and dropping it onto the indicated area on the landing page.
     ![Photoshop landing](./images-installation/Ps_landing_page.jpg)
 - **Method 2**: by menu navigation:
     1. Click File -> Open
-    2. Click the **On your computer** button on the lower left of the popup window.
-    ![CC photoshop open](./images-installation/OpenfromCCwindow.jpg)
+    2. Click the **On your computer** button on the lower left of the popup window.![CC Photoshop open](./images-installation/OpenfromCCwindow.jpg)
     3. Select your desired image file in the file explorer and click open.
