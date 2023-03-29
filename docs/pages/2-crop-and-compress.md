@@ -8,6 +8,10 @@ Cropping images is essential for presentations, as slides demand only the most i
 
 1. Ensure Photoshop is installed and opened. See the section on [Installing Photoshop](./1-install-photoshop-using-bcit-account.md) for more information.
 
+When you first open Photoshop, the main menu will appear. Any recently opened projects will appear in the center of the screen, but for now we'll be focusing on opening a new project using a pre-made image.
+
+![Photoshop's main menu.](./images/crop-and-compress/main-menu.png)
+
 2. At the main menu, open your desired image.
 - **Method 1**:
     1. Drag and drop your image onto Photoshop's interface.
@@ -17,21 +21,38 @@ Cropping images is essential for presentations, as slides demand only the most i
     3. Navigate to your image using the opened File Explorer window.
     4. Open your image.
 
+Your file should now be opened as a new project.
+
+![Photoshop's interface with a project opened.](./images/crop-and-compress/image-opened.png)
+
  ### Crop your Image
 
 When an Photoshop project is opened, the most relevant editing tools are displayed on the left sidebar.
+![Photoshop's left sidebar, showing all relevant editing tools.](./images/crop-and-compress/tools-on-sidebar.png)
+
 3. Navigate to the sidebar and activate the Crop tool.
 > All tools have keyboard shortcuts for easy access. The default shortcut for the Crop tool is `C`.
 
+![The Photoshop sidebar, with the icon for the Crop tool highlighted and selected.](./images/crop-and-compress/crop-tool-marked.png)
+
 When the Crop tool is active, the edges of the image will now be outlined, with bold handles at each edge and corner.
 
+![The Photoshop interface with the Crop tool selected. The image is now outlined, with handles at the edges and corners.](./images/crop-and-compress/before-crop.png)
+
 4. Drag the handles to crop the image to your desired size.
+
+![Photoshop's interface, with the Crop tool's borders shrunk. Only a quarter of the original image is now selected.](./images/crop-and-compress/after-crop.png)
+
 The button to apply your changes is on the top of the screen, to the right of the navigation bar.
+
+![Photoshop's navigation bar, with the Apply Changes button highlighted and selected.](./images/crop-and-compress/apply-changes-marked.png)
 
 5. Click the checkmark at the top of the screen to apply your changes.
 > The default shortcut to apply your changes is `Enter`.
 
 The displayed image should now be cropped to your desired size.
+
+![The Photoshop interface after a Crop has been applied. Only a quarter of the original image is now visible.](./images/crop-and-compress/image-is-cropped.png)
 
 > While the image may appear to be finalized, changes are only truly made upon **Export**ing your project to a new image.
 
