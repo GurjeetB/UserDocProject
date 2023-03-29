@@ -61,18 +61,34 @@ Once your image has been cropped and any additional changes have been made, it's
 ### Compress and Export your Image
 
 1. Expand the `File` tab in the navigation bar.
+
+![Photoshop's navigation bar, with the "File" menu opened.](./images/crop-and-compress/file-tab-opened.png)
+
 2. Hove your mouse over the `Export` submenu to open it.
+
+![The "File" menu of the navigation bar, with the "Export" submenu opened and the "Export As" button highlighted.](./images/crop-and-compress/export-submenu-opened.png)
+
 3. Select `Export As...` to open the Export menu.
 
 The Export menu should now be open, showing your edited image.
 
+![Photoshop's "Export As" menu, with all settings at their default values.](./images/crop-and-compress/export-as-menu.png)
+
 4. In the `File Settings` category, change `Format` to `JPG`.
 > After changing the format to JPG, a slider will appear labelled `Quality`. Dragging this slider will change the quality of your image; lower quality means a lower file size.
 
+![The "File Settings" category of the "Export As" menu. The "Format" setting has the "JPG" option highlighted.](./images/crop-and-compress/change-to-jpg.png)
+
 5. Click the button labelled `Export` at the bottom-right.
+
+![The "Export As" menu, with the "Export" button highlighted.](./images/crop-and-compress/export-button.png)
 
 6. Navigate to where you want the compressed image to be stored using the opened File Explorer window.
 
 7. Rename your file if desired and click `Save`.
 
+![Windows 10's File Explorer menu, navigated to the user's desktop. The final image is being exported as "final-image.jpg".](./images/crop-and-compress/save-as.png)
+
 You now have a cropped and compressed file, ready to be uploaded to your website or presentation!
+
+![The final result - a cropped, compressed image.](./images/crop-and-compress/final-image.jpg)
