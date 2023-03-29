@@ -1,3 +1,13 @@
-site_name: My Docs
+site_name: Photoshop User Documentation
+nav:
+  - Home: "pages/introduction.md"
+  - Installing Photoshop via BCIT: "pages/1-install-photoshop-using-bcit-account.md"
+  -  Cropping and Compressing an Image using Photoshop: "pages/2-crop-and-compress.md"
+
 theme:
   name: material
+
+  palette: 
+    scheme: slate
+    primary: indigo
+    accent: cyan
