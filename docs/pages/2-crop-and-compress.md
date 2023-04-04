@@ -4,7 +4,7 @@ Cropping images is essential for presentations, as slides demand only the most i
 
 ### Open your Image
 
-1. Ensure Photoshop is installed and opened. See the section on [Installing Photoshop](./1-install-photoshop-using-bcit-account.md) for more information.
+1. Ensure Photoshop is installed and opened. See the section on [Installing Photoshop](../1-install-photoshop-using-bcit-account/) for more information.
 
     When you first open Photoshop, the main menu will appear. Any recently opened projects will appear in the center of the screen, but for now we'll be focusing on opening a new project using a pre-made image.
 
@@ -16,6 +16,7 @@ Cropping images is essential for presentations, as slides demand only the most i
     - **Method 2**: 
         - Expand the `File` tab in the navigation bar.
         - Click `Open` to open an image.
+            ![The navigation bar, with the File tab opened and the Open option highlighted.](./images/crop-and-compress/file_open.png)
         - Navigate to your image using the opened File Explorer window.
         - Open your image.
 
