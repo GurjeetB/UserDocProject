@@ -74,6 +74,28 @@ Once complete, the mouse cursor will change to a paint bucket icon when hovering
 ![Copied txt layer](./images-rollover/text_layer_copied.jpg)
 
 ## Edit hovered text layer
-## Export as png
-## Hide hovered layer
-## Export as different png
+
+1. Click on the eye icon next to the original text layer to hide it. Now, only the copied text layer should be selected.
+
+2. Click on the colored square at the top to edit the text color of the copied layer.
+![New Document](./images-rollover/copytext_color_change.jpg)
+
+3. Select the desired color from the pop-up color pallette and click OK. Color that contrasts with both the original text and the background color is recommended.
+![New Document](./images-rollover/copytext_colorpick.jpg)
+
+## Export Copy as png
+
+1. Click the eye icon for the background layer to turn it back on.
+
+2. Click File on the top navigation bar, then go to Export -> Quick Export as PNG.
+
+3. Save in the desired fiie directory.
+
+## Hide hovered layer and export original
+
+1. hide the copied text layer by clicking the eye icon.
+
+2. show the original text layer by clicking the eye icon.
+
+3. Repeat the previous png export procedure as before: File -> Export -> Quick Export.
+    - Finished!, there should now be two png files with identical background color and text location/size, but with diffrent colors.
