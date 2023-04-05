@@ -11,34 +11,35 @@
 4. Search for the term 'adobe'. There should be only 1 result, "_Adobe Creative Cloud Pro_". Click **Add to Cart** to the right of the page.
     ![software portal](./images-installation/install_2.jpg)
 
-## Activate adobe license in bcit software portal
+## Activate Adobe License in BCIT Software Portal
 * !need screenshots!!
     
 ## Download Adobe Creative Cloud
 
-1. Click install. You will be lead to the download creative cloud webpage. ![portalACC install](./images-installation/install_3_1.jpg)
+1. Click **Install**. You will be led to the "Download Creative Cloud" webpage. ![portalACC install](./images-installation/install_3_1.jpg)
 2. Click **Download Creative Cloud**
     ![software portal](./images-installation/DownloadCC.jpg)
-3. Launch the downloaded Creative_Cloud_Set-Up.exe
-4. Enter your BCIT email whenever prompted to sign in for authentication.
+3. Launch the downloaded **Creative_Cloud_Set-Up.exe**.
+4. Whenever prompted to sign in for authentication, **log in using your BCIT email**.
     ![CC adobe login](./images-installation/CC_BCIT_login.jpg)
 
-## Download Photoshop in the Creative Cloud.
+## Download Photoshop in the Creative Cloud portal.
 
 - Once logged in, you should be on the _All Apps_ page for desktop by default
 
-1. Click the install button for Photoshop.
+1. Click the **Install** button for Photoshop.
     ![CC Photoshop install](./images-installation/CC_landingpage.jpg)
 
-2. Click the open photoshop button on the updated Creative Cloud window after installation.
+2. Click the **Open** photoshop button on the updated Creative Cloud window after installation.
     ![CC Photoshop open](./images-installation/CC_open_Ps_button.jpg)
 
 ## Open image file in Photoshop
 
 - **Method 1**:
-    Open image file by dragging and dropping it onto the indicated area on the landing page.
-    ![Photoshop landing](./images-installation/Ps_landing_page.jpg)
+    - Open your image file by dragging and dropping it onto the indicated area on the landing page.
+        ![Photoshop landing](./images-installation/Ps_landing_page.jpg)
 - **Method 2**: by menu navigation:
-    1. Click File -> Open
-    2. Click the **On your computer** button on the lower left of the popup window.![CC Photoshop open](./images-installation/OpenfromCCwindow.jpg)
+    1. Click **File** -> **Open**.
+    2. Click the **On your computer** button on the lower left of the popup window.
+        ![CC Photoshop open](./images-installation/OpenfromCCwindow.jpg)
     3. Select your desired image file in the file explorer and click open.
