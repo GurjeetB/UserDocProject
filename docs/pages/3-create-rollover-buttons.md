@@ -74,6 +74,17 @@ Once complete, the mouse cursor will change to a paint bucket icon when hovering
 ![Copied txt layer](./images-rollover/text_layer_copied.jpg)
 
 ## Edit hovered text layer
+
+1. Click on the eye icon next to the original text layer to hide it. Now, only the copied text layer should be selected.
+
+2. Click on the colored square at the top to edit the text color of the copied layer.
+![New Document](./images-rollover/copytext_color_change.jpg)
+
+3. Select the desired color from the pop-up color pallette and click OK. Color that contrasts with both the original text and the background color is recommended.
+![New Document](./images-rollover/copytext_colorpick.jpg)
+
 ## Export as png
+
+1. Click the 
 ## Hide hovered layer
 ## Export as different png
