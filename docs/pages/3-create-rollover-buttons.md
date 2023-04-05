@@ -4,6 +4,7 @@ This section will showcase how to create rollover buttons which require 2 images
 
 Rollover buttons where mouse over causes the button image to change (i.e. change to a darker shade) provide clear visual feed back to the website's user about their potential selection.
 
+
 ## Create new empty file
 
 - **Method1**
@@ -89,7 +90,7 @@ Once complete, the mouse cursor will change to a paint bucket icon when hovering
 
 2. Click File on the top navigation bar, then go to Export -> Quick Export as PNG.
 
-3. Save in the desired fiie directory.
+3. Save in the desired file directory.
 
 ## Hide hovered layer and export original
 
@@ -98,4 +99,4 @@ Once complete, the mouse cursor will change to a paint bucket icon when hovering
 2. show the original text layer by clicking the eye icon.
 
 3. Repeat the previous png export procedure as before: File -> Export -> Quick Export.
-    - Finished!, there should now be two png files with identical background color and text location/size, but with diffrent colors.
+    - Finished!, there should now be two png files with identical background color and text location/size, but with different colors.
