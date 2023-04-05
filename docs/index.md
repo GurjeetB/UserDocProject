@@ -9,7 +9,7 @@ Photoshop is part of the Adobe Creative Cloud suite, which BCIT students get a f
 
 ## Intended Users
 This guide is for you if:
-- You are a BCIT student beginning the CST program.
+- You are a full-time BCIT student beginning the CST program.
 - You have experience with computers.
 
 ## Document Conventions
