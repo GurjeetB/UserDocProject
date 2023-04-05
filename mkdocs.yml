@@ -1,8 +1,11 @@
 site_name: Photoshop User Documentation
 nav:
   - Home: "index.md"
+  - Glossary (WIP): "pages/glossary.md"
   - Installing Photoshop via BCIT: "pages/1-install-photoshop-using-bcit-account.md"
   -  Cropping and Compressing an Image using Photoshop: "pages/2-crop-and-compress.md"
+  - Creating Rollover Buttons: "pages/3-create-rollover-buttons.md"
+  - Troubleshooting (WIP): "pages/troubleshooting.md"
 
 theme:
   name: material
