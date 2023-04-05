@@ -1,13 +1,14 @@
 # Installing Photoshop via BCIT
 
-## Log into bcit software portal.
+## Log into BCIT Software Portal
 
-1. Visit the website by [clicking this link](https://bcit.onthehub.com/WebStore/Welcome.aspx)
-    - or search google for "bcit software portal hub" and select the first result.
-2. click the **Sign In** on the top-right corner of the site
+1. Visit the [BCIT Software Portal.](https://bcit.onthehub.com/WebStore/Welcome.aspx)
+    - Alternatively, search Google for "bcit software portal hub" and select the first result.
+2. Click **Sign In** on the top-right corner of the site.
     ![software portal](./images-installation/install_1.jpg)
-3. Log in with your BCIT credentials (BCIT email and password). You will be returned to the previous page while signed in.
-4. Search for the term 'adobe'. There should be only 1 result (_Adobe Creative Cloud Pro_). Click **Add to Cart** to the right of the page.
+3. Log in with your BCIT credentials (BCIT email and password).
+    You will be returned to the previous page once signed in.
+4. Search for the term 'adobe'. There should be only 1 result, "_Adobe Creative Cloud Pro_". Click **Add to Cart** to the right of the page.
     ![software portal](./images-installation/install_2.jpg)
 
 ## Activate adobe license in bcit software portal
