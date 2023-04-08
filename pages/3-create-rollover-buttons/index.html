@@ -1,0 +1,649 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../2-crop-and-compress/">
+      
+      
+        <link rel="next" href="../troubleshooting/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
+    
+    
+      
+        <title>Creating Rollover Buttons - Photoshop User Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ded33207.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#create-rollover-buttons-for-a-website" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Photoshop User Documentation" class="md-header__button md-logo" aria-label="Photoshop User Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Photoshop User Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Creating Rollover Buttons
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Photoshop User Documentation" class="md-nav__button md-logo" aria-label="Photoshop User Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Photoshop User Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        Glossary (WIP)
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-install-photoshop-using-bcit-account/" class="md-nav__link">
+        Installing Photoshop via BCIT
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-crop-and-compress/" class="md-nav__link">
+        Cropping and Compressing an Image using Photoshop
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Creating Rollover Buttons
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Creating Rollover Buttons
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-new-empty-file" class="md-nav__link">
+    Create new empty file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choose-desired-image-size" class="md-nav__link">
+    Choose desired image size
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equip-paint-bucket-tool-change-color" class="md-nav__link">
+    Equip paint bucket tool, change color
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paint-background-layer" class="md-nav__link">
+    Paint background layer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-text-layer-change-color-default" class="md-nav__link">
+    Create text layer, change color (default)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duplicate-text-layer-using-ctrlj-hovered" class="md-nav__link">
+    Duplicate text layer using Ctrl+J (hovered)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edit-hovered-text-layer" class="md-nav__link">
+    Edit hovered text layer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-copy-as-png" class="md-nav__link">
+    Export Copy as png
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hide-hovered-layer-and-export-original" class="md-nav__link">
+    Hide hovered layer and export original
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        Troubleshooting (WIP)
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-new-empty-file" class="md-nav__link">
+    Create new empty file
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choose-desired-image-size" class="md-nav__link">
+    Choose desired image size
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equip-paint-bucket-tool-change-color" class="md-nav__link">
+    Equip paint bucket tool, change color
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paint-background-layer" class="md-nav__link">
+    Paint background layer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-text-layer-change-color-default" class="md-nav__link">
+    Create text layer, change color (default)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duplicate-text-layer-using-ctrlj-hovered" class="md-nav__link">
+    Duplicate text layer using Ctrl+J (hovered)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edit-hovered-text-layer" class="md-nav__link">
+    Edit hovered text layer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-copy-as-png" class="md-nav__link">
+    Export Copy as png
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hide-hovered-layer-and-export-original" class="md-nav__link">
+    Hide hovered layer and export original
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="create-rollover-buttons-for-a-website">Create rollover buttons for a website</h1>
+<p>This section will showcase how to create rollover buttons which require 2 images of texts with exactly identical placement/size while changing in color.</p>
+<p>Rollover buttons where mouse over causes the button image to change (i.e. change to a darker shade) provide clear visual feed back to the website's user about their potential selection.</p>
+<h2 id="create-new-empty-file">Create new empty file</h2>
+<ul>
+<li><strong>Method1</strong>
+    Select file from the top-left navigation bar and click new.
+    <img alt="Newfile method1" src="../images-rollover/new_file_method1.jpg" /></li>
+<li><strong>Method2</strong>
+    Click the blue <em>New file</em> button to the left, below the navigation bar.
+    <img alt="Newfile method2" src="../images-rollover/new_file_method2.jpg" />
+Completing either of the steps will bring up a <em>New Document</em> window.</li>
+</ul>
+<h2 id="choose-desired-image-size">Choose desired image size</h2>
+<p>Following is a image of the New Documents window that is labeled with necessary steps.</p>
+<p><img alt="New Document" src="../images-rollover/new_document_window.jpg" /></p>
+<ol>
+<li>
+<p>Enter the desired name of the file in the <em>Present Details</em> field.</p>
+</li>
+<li>
+<p>Select the units of the file that you will be working with.</p>
+</li>
+<li>
+<p>Enter the dimensions for width and height in said dimensions.</p>
+</li>
+<li>
+<p>Click the blue <em>Create</em> button on the bottom right.</p>
+</li>
+</ol>
+<p>Once completed, your workspace will show a white rectangle with the specified dimensions/units.</p>
+<h2 id="equip-paint-bucket-tool-change-color">Equip paint bucket tool, change color</h2>
+<ol>
+<li>
+<p>Click and hold the Gradient tool icon on the left tool bar.</p>
+</li>
+<li>
+<p>Select Paint Bucket tool.</p>
+</li>
+</ol>
+<p><img alt="New Document" src="../images-rollover/paint%20bucket%20tool.jpg" /></p>
+<pre><code>Once complete, the mouse cursor will change to a paint bucket icon when hovering over the workspace.
+</code></pre>
+<h2 id="paint-background-layer">Paint background layer</h2>
+<ol>
+<li>
+<p>Select your desired background color from the color pallette to the top-right of the workspace.</p>
+</li>
+<li>
+<p>Click on the white rectangle on your workspace. The rectangle will change to the specified color.
+<img alt="New Document" src="../images-rollover/background%20color.jpg" /></p>
+</li>
+</ol>
+<h2 id="create-text-layer-change-color-default">Create text layer, change color (default)</h2>
+<ol>
+<li>
+<p>Create a new Layer: select <em>Layer</em> on the top navigation bar -&gt; New -&gt; Layer </p>
+<ul>
+<li>Or use shortcut shift+ctrl+N
+<img alt="New layer" src="../images-rollover/new%20layer.jpg" /></li>
+</ul>
+</li>
+<li>
+<p>Enter an easily distinguishable name (i.e. Text 1) and click OK.
+<img alt="New layer confirm" src="../images-rollover/new%20layer%20confirm.jpg" /></p>
+<ul>
+<li>Once complete, there should be a new Layer visible on the <em>Layers</em> tab to the bottom right of your workspace.
+<img alt="New layer tab" src="../images-rollover/layer_tab.jpg" /></li>
+</ul>
+</li>
+<li>
+<p>Hide the Background layer by clicking the eye shaped icon next to the Background layer.</p>
+<ul>
+<li>The workspace should now be a checkered rectangle.</li>
+</ul>
+</li>
+<li>
+<p>Click the <em>Horizontal Type Tool</em> on the left toolbar then click on the workspace to type in the text for your button.</p>
+</li>
+<li>
+<p>Select the font, size, color of your text from the top to ensure it will be visible against the background color.
+<img alt="New Document name" src="../images-rollover/enter%20text%201.jpg" /></p>
+</li>
+</ol>
+<h2 id="duplicate-text-layer-using-ctrlj-hovered">Duplicate text layer using Ctrl+J (hovered)</h2>
+<ol>
+<li>Make sure the text layer is selected and press ctrl+J to copy it. Once complete, another layer with the identical name appended by <em>copy</em> will appear in the layers tab.</li>
+</ol>
+<p><img alt="Copied txt layer" src="../images-rollover/text_layer_copied.jpg" /></p>
+<h2 id="edit-hovered-text-layer">Edit hovered text layer</h2>
+<ol>
+<li>
+<p>Click on the eye icon next to the original text layer to hide it. Now, only the copied text layer should be selected.</p>
+</li>
+<li>
+<p>Click on the colored square at the top to edit the text color of the copied layer.
+<img alt="New Document" src="../images-rollover/copytext_color_change.jpg" /></p>
+</li>
+<li>
+<p>Select the desired color from the pop-up color pallette and click OK. Color that contrasts with both the original text and the background color is recommended.
+<img alt="New Document" src="../images-rollover/copytext_colorpick.jpg" /></p>
+</li>
+</ol>
+<h2 id="export-copy-as-png">Export Copy as png</h2>
+<ol>
+<li>
+<p>Click the eye icon for the background layer to turn it back on.</p>
+</li>
+<li>
+<p>Click File on the top navigation bar, then go to Export -&gt; Quick Export as PNG.
+<img alt="png export" src="../images-rollover/png_quick_export.jpg" /></p>
+</li>
+<li>
+<p>Save the png file in the desired file directory.</p>
+</li>
+</ol>
+<h2 id="hide-hovered-layer-and-export-original">Hide hovered layer and export original</h2>
+<ol>
+<li>
+<p>Hide the copied text layer by clicking the eye icon.</p>
+</li>
+<li>
+<p>Show the original text layer by clicking the eye icon.</p>
+</li>
+<li>
+<p>Repeat the previous png export procedure as before: File -&gt; Export -&gt; Quick Export.</p>
+<ul>
+<li>Finished! There should now be two png files with identical background color and text location/size, but with different colors.</li>
+</ul>
+</li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+    
+  </body>
+</html>
