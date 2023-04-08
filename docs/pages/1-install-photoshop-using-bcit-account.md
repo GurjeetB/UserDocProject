@@ -12,8 +12,13 @@
     ![software portal](./images-installation/install_2.jpg)
 
 ## Activate Adobe License in BCIT Software Portal
-* !need screenshots!!
-    
+
+1. Click the checkout button to confirm your purchase.
+![software portal](./images-installation/license_checkout.jpg)
+
+2. Accept the licensing agreement and proceed with on-screen instructions.
+![software portal](./images-installation/license_accept.jpg)
+
 ## Download Adobe Creative Cloud
 
 1. Click **Install**. You will be led to the "Download Creative Cloud" webpage. ![portalACC install](./images-installation/install_3_1.jpg)
@@ -43,3 +48,5 @@
     2. Click the **On your computer** button on the lower left of the popup window.
         ![CC Photoshop open](./images-installation/OpenfromCCwindow.jpg)
     3. Select your desired image file in the file explorer and click open.
+        
+        - Congradulations! You've successfully installed Photoshop. 
